@@ -1,3 +1,21 @@
-.container-fluid{
-    position: sticky;
+.navbar-brand{
+    border: 2px solid rebeccapurple;
 }
+
+.collapse {
+    background-color: black;
+  
+}
+
+.collapse li{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid red;
+    /* background-color: aquamarine; */
+}
+
+
+.nav-item{
+       color: antiquewhite;
+}
+
