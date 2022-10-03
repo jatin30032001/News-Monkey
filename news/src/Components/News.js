@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import NewsItem from './NewsItem'
 import Spinner from './Spinner';
 import PropTypes  from 'prop-types';
+// import './News.css';
 
 export class News extends Component {
     static defaultProps ={
@@ -66,7 +67,7 @@ HandleNext =async()=>{
 
   render() {
     return (
-      <div className='container my-3'>
+      <div className='container-my-3'>
          <h2> NewsMonkey Top Headlines on {this.props.category}</h2>
          <div className="text-center">
           {this.state.loading&&<Spinner/>}

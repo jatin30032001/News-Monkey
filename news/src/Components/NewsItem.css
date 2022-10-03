@@ -8,6 +8,7 @@
  /* animation: mymove 5s infinite; */
  /* box-shadow: 5px 10px 8px #888888 */
  box-shadow: 20px 20px 15px grey;
+ margin-right: 33px;
  
 }
 .card:hover {
@@ -30,7 +31,8 @@
     border-radius:  5px;
     ;
 }
-.card-body p{
+ .text-muted{
+    /* border: 2px solid red; */
     color: antiquewhite;
 }
 
